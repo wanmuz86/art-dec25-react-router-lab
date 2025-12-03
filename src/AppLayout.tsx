@@ -7,6 +7,9 @@ const AppLayout:React.FC = () => {
         <nav>
             <ul>
                 {/* NavLink similar to a href  but happens on react-router / browser / SPA*/}
+               
+                {/* <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li> */}
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
             </ul>
